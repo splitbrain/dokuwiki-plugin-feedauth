@@ -25,7 +25,7 @@ class action_plugin_feedauth extends DokuWiki_Action_Plugin {
 
     function handle_feed_opts_postprocess(&$event, $param) {
         if(!$_SERVER['REMOTE_USER']){
-            if($this->getConfig('always') || isset($_REQUEST['feedauth'])){
+            if($this->getConf('always') || isset($_REQUEST['feedauth'])){
                 header('WWW-Authenticate: Basic realm="Feed"');
                 header('HTTP/1.0 401 Unauthorized');
                 echo 'Authorization required';
