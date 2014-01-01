@@ -7,6 +7,4 @@
 
 $lang['always'] = 'Always ask for authorization? (Disables feed for anonymous users)';
 
-
-
 //Setup VIM: ex: et ts=4 enc=utf-8 :
