@@ -1,7 +1,7 @@
 base   feedauth
 author Andreas Gohr
 email  andi@splitbrain.org
-date   2016-02-02
+date   2016-02-03
 name   feedauth plugin
 desc   Send an \"authorization required\" header in the feed
 url    http://www.dokuwiki.org/plugin:feedauth
